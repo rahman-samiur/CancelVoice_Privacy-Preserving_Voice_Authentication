@@ -1,4 +1,4 @@
-"""Low-pass voice blurring via sample-rate conversion (Cohen–Hadria et al., §2.2.1)."""
+"""Low-pass anonymization baseline via sample-rate conversion (Cohen–Hadria et al., §2.2.1)."""
 
 from __future__ import annotations
 
