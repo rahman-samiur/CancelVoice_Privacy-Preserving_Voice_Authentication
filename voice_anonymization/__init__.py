@@ -1,4 +1,4 @@
-"""Voice blurring transforms from Cohen–Hadria et al. (2019), §2.2."""
+"""Baseline voice anonymization methods from Cohen–Hadria et al. (2019), §2.2."""
 
 from .low_pass import low_pass_blur
 from .mfcc_inversion import mfcc_inversion_blur
