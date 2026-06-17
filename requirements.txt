@@ -1,0 +1,26 @@
+# CancelVoice: Privacy-Preserving Voice Anonymization
+# Core audio processing
+librosa>=0.10,<0.12
+numpy>=1.23
+soundfile>=0.12
+
+# Deep learning
+torch>=2.0
+torchaudio>=2.0
+
+# Speaker embedding extraction (privacy metric)
+speechbrain>=0.5
+
+# ASR evaluation (WER metric in evaluate.py)
+openai-whisper>=20230314
+
+# Visualization
+matplotlib>=3.7
+
+# Notebook support
+jupyter>=1.0
+ipykernel>=6
+
+# Utilities
+tqdm>=4.65
+pandas>=2.0
